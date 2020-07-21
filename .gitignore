@@ -1,0 +1,7 @@
+# Directories
+.vs/
+x64bin/
+x64bin-int/
+
+# Files
+*.user
