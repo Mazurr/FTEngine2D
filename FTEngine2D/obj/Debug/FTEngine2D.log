@@ -1,0 +1,90 @@
+﻿  Application.cpp
+  Log.cpp
+C:\Users\Bazur\Desktop\GraphicsEngine\FTEngine2D\FTEngine2D\src\FTEngine2D\Log.h(17,54): warning C4251: 'FTE::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'FTE::Log'
+C:\Users\Bazur\Desktop\GraphicsEngine\FTEngine2D\FTEngine2D\vendor\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Users\Bazur\Desktop\GraphicsEngine\FTEngine2D\FTEngine2D\src\FTEngine2D\Log.h(18,56): warning C4251: 'FTE::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'FTE::Log'
+C:\Users\Bazur\Desktop\GraphicsEngine\FTEngine2D\FTEngine2D\vendor\include\spdlog\details\registry.h(34): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+  Generating Code...
+     Creating library x64bin-int\Debug-x64\FTEngine2D\FTEngine2D.lib and object x64bin-int\Debug-x64\FTEngine2D\FTEngine2D.exp
+libcpmtd.lib(_tolower.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+Log.obj : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(mutex.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(cond.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _calloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol _free_dbg
+Log.obj : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(mutex.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(cond.obj) : error LNK2001: unresolved external symbol _free_dbg
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(xwcsxfrm.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+Log.obj : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(locale0.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2001: unresolved external symbol _malloc_dbg
+libcpmtd.lib(wlocale.obj) : error LNK2019: unresolved external symbol _CrtDbgReport referenced in function "public: unsigned short __cdecl std::basic_streambuf<wchar_t,struct std::char_traits<wchar_t> >::sbumpc(void)" (?sbumpc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ)
+libcpmtd.lib(xlocale.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libconcrtd.lib(TaskCollection.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libconcrtd.lib(Chores.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+Log.obj : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(thread0.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(xonce.obj) : error LNK2001: unresolved external symbol _CrtDbgReport
+libcpmtd.lib(locale.obj) : error LNK2019: unresolved external symbol _realloc_dbg referenced in function "private: static void __cdecl std::locale::_Locimp::_Locimp_Addfac(class std::locale::_Locimp *,class std::locale::facet *,unsigned __int64)" (?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z)
+libcpmtd.lib(_tolower.obj) : error LNK2019: unresolved external symbol _wcsdup_dbg referenced in function _Getctype
+libcpmtd.lib(xstrcoll.obj) : error LNK2001: unresolved external symbol _wcsdup_dbg
+libconcrtd.lib(SearchAlgorithms.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(location.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSBackgroundPoller.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSFreeVirtualProcessorRoot.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(FreeVirtualProcessorRoot.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(FreeThreadProxy.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ThreadProxy.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSFreeThreadProxy.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(TaskCollectionBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(WorkQueue.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(Chores.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(VirtualProcessorRoot.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSThreadVirtualProcessor.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSThreadInternalContext.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(TransmogrifiedPrimary.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(Transmogrificator.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ScheduleGroupBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(CacheLocalScheduleGroup.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(FairScheduleGroup.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ExternalContextBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(VirtualProcessor.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SchedulingNode.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SubAllocator.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SchedulingRing.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SchedulerProxy.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(WinRTWrapper.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ThreadProxyFactoryManager.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(InternalContextBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(TaskCollection.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SchedulerPolicyBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ExecutionResource.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(HillClimbing.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SchedulerBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSWrapper.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(UMSThreadProxy.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ContextBase.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(event.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(Platform.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(utils.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(ResourceManager.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libcpmtd.lib(StlLCMapStringA.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libcpmtd.lib(xmbtowc.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libcpmtd.lib(StlCompareStringA.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(rtlocks.obj) : error LNK2001: unresolved external symbol _CrtDbgReportW
+libconcrtd.lib(SubAllocator.obj) : error LNK2019: unresolved external symbol _CrtIsValidHeapPointer referenced in function "private: bool __cdecl Concurrency::details::SubAllocator::InitAndCheckBlockOnAlloc(union Concurrency::details::AllocationEntry *,unsigned __int64)" (?InitAndCheckBlockOnAlloc@SubAllocator@details@Concurrency@@AEAA_NPEATAllocationEntry@23@_K@Z)
+x64bin-int\Debug-x64\FTEngine2D\FTEngine2D.dll : fatal error LNK1120: 8 unresolved externals
