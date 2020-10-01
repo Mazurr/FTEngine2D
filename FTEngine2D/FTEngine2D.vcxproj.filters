@@ -34,6 +34,7 @@
     <ClInclude Include="src\FTEngine2D\Events\MouseEvent.h">
       <Filter>FTEngine2D\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\ftepch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FTEngine2D\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\FTEngine2D\Log.cpp">
       <Filter>FTEngine2D</Filter>
     </ClCompile>
+    <ClCompile Include="src\ftepch.cpp" />
   </ItemGroup>
 </Project>

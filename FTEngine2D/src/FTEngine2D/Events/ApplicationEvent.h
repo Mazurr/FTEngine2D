@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace FTE {
 
 	class FTE_API WindowResizeEvent : public Event

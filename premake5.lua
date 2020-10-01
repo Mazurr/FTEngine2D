@@ -20,6 +20,9 @@ project "FTEngine2D"
 	targetdir("%{prj.name}/"..archi.."bin/"..outputdir.."/%{prj.name}")
 	objdir("%{prj.name}/"..archi.."bin-int/"..outputdir.."/%{prj.name}")
 
+	pchheader "ftepch.h"
+	pchsource "FTEngine2D/src/ftepch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
@@ -35,7 +38,7 @@ project "FTEngine2D"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "default"
-		systemversion "10.0.18362.0"
+		systemversion "latest"
 
 		defines
 		{
@@ -92,7 +95,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "default"
-		systemversion "10.0.18362.0"
+		systemversion "latest"
 
 		defines
 		{
