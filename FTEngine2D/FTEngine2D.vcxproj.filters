@@ -4,6 +4,9 @@
     <Filter Include="FTEngine2D">
       <UniqueIdentifier>{EB899842-D741-DA8F-4049-B3EB2C207580}</UniqueIdentifier>
     </Filter>
+    <Filter Include="FTEngine2D\Events">
+      <UniqueIdentifier>{82a0769f-e3ed-4462-b623-5c532c1063e1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\FTE.h" />
@@ -18,6 +21,18 @@
     </ClInclude>
     <ClInclude Include="src\FTEngine2D\Log.h">
       <Filter>FTEngine2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FTEngine2D\Events\ApplicationEvent.h">
+      <Filter>FTEngine2D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FTEngine2D\Events\Event.h">
+      <Filter>FTEngine2D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FTEngine2D\Events\KeyEvent.h">
+      <Filter>FTEngine2D\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FTEngine2D\Events\MouseEvent.h">
+      <Filter>FTEngine2D\Events</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

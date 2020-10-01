@@ -8,4 +8,6 @@
 	#endif
 #else
 	#error FTE only support windows
-#endif //  HZ_PLATFORM_WINDOWS
+#endif
+
+#define BIT(x) (1 << x)
