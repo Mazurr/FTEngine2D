@@ -12,6 +12,12 @@ workspace "FTEngine2D"
 archi = "x64"
 outputdir = "%{cfg.buildcfg}-"..archi
 
+-- Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLWF"] = "FTEngine2D/vendor/GLWF/include"
+
+include "FTEngine2D/vendor/GLWF"
+
 project "FTEngine2D"
 	location "FTEngine2D"
 	kind "SharedLib"
@@ -32,7 +38,14 @@ project "FTEngine2D"
 	includedirs
 	{
 		"%{prj.name}/vendor/spdlog/include",
-		"%{prj.name}/src"
+		"%{prj.name}/src",
+		"%{IncludeDir.GLWF}"
+	}
+	
+	links 
+	{ 
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

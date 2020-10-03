@@ -5,7 +5,7 @@
       <UniqueIdentifier>{EB899842-D741-DA8F-4049-B3EB2C207580}</UniqueIdentifier>
     </Filter>
     <Filter Include="FTEngine2D\Events">
-      <UniqueIdentifier>{82a0769f-e3ed-4462-b623-5c532c1063e1}</UniqueIdentifier>
+      <UniqueIdentifier>{6F7F684E-DB95-66E4-240D-F2059062376C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -17,9 +17,6 @@
       <Filter>FTEngine2D</Filter>
     </ClInclude>
     <ClInclude Include="src\FTEngine2D\EntryPoint.h">
-      <Filter>FTEngine2D</Filter>
-    </ClInclude>
-    <ClInclude Include="src\FTEngine2D\Log.h">
       <Filter>FTEngine2D</Filter>
     </ClInclude>
     <ClInclude Include="src\FTEngine2D\Events\ApplicationEvent.h">
@@ -34,7 +31,16 @@
     <ClInclude Include="src\FTEngine2D\Events\MouseEvent.h">
       <Filter>FTEngine2D\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\FTEngine2D\Log.h">
+      <Filter>FTEngine2D</Filter>
+    </ClInclude>
     <ClInclude Include="src\ftepch.h" />
+    <ClInclude Include="src\FTEngine2D\Window.h">
+      <Filter>FTEngine2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>FTEngine2D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FTEngine2D\Application.cpp">
@@ -44,5 +50,8 @@
       <Filter>FTEngine2D</Filter>
     </ClCompile>
     <ClCompile Include="src\ftepch.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>FTEngine2D</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

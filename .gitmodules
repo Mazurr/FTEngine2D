@@ -1,3 +1,6 @@
+[submodule "FTEngine2D/vendor/GLWF"]
+	path = FTEngine2D/vendor/GLWF
+	url = https://github.com/TheCherno/glfw.git
 [submodule "FTEngine2D/vendor/spdlog"]
 	path = FTEngine2D/vendor/spdlog
 	url = https://github.com/gabime/spdlog.git

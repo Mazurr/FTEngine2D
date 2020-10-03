@@ -1,4 +1,4 @@
-#include "../ftepch.h"
+#include "ftepch.h"
 #include "Log.h"
 
 namespace FTE {
