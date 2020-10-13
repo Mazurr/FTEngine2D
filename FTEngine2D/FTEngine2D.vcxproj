@@ -159,6 +159,8 @@
     <ClInclude Include="src\FTEngine2D\Events\Event.h" />
     <ClInclude Include="src\FTEngine2D\Events\KeyEvent.h" />
     <ClInclude Include="src\FTEngine2D\Events\MouseEvent.h" />
+    <ClInclude Include="src\FTEngine2D\Layer.h" />
+    <ClInclude Include="src\FTEngine2D\LayerStack.h" />
     <ClInclude Include="src\FTEngine2D\Log.h" />
     <ClInclude Include="src\FTEngine2D\Window.h" />
     <ClInclude Include="src\ftepch.h" />
@@ -166,6 +168,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FTEngine2D\Application.cpp" />
+    <ClCompile Include="src\FTEngine2D\Layer.cpp" />
+    <ClCompile Include="src\FTEngine2D\LayerStack.cpp" />
     <ClCompile Include="src\FTEngine2D\Log.cpp" />
     <ClCompile Include="src\ftepch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>

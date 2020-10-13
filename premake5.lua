@@ -123,9 +123,11 @@ project "Sandbox"
 		optimize "On"
 
 	filter "configurations:Release"
+		buildoptions "/MD"
 		defines "FTE_RELEASE"
 		optimize "On"
 
 	filter "configurations:Dist"
+		buildoptions "/MD"
 		defines "FTE_DIST"
 		optimize "On"

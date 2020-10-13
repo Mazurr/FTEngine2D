@@ -41,6 +41,12 @@
     <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
       <Filter>FTEngine2D</Filter>
     </ClInclude>
+    <ClInclude Include="src\FTEngine2D\Layer.h">
+      <Filter>FTEngine2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FTEngine2D\LayerStack.h">
+      <Filter>FTEngine2D</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\FTEngine2D\Application.cpp">
@@ -51,6 +57,12 @@
     </ClCompile>
     <ClCompile Include="src\ftepch.cpp" />
     <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>FTEngine2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FTEngine2D\Layer.cpp">
+      <Filter>FTEngine2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FTEngine2D\LayerStack.cpp">
       <Filter>FTEngine2D</Filter>
     </ClCompile>
   </ItemGroup>
