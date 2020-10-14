@@ -15,8 +15,12 @@ outputdir = "%{cfg.buildcfg}-"..archi
 -- Include directories relative to root folder (solution directory)
 IncludeDir = {}
 IncludeDir["GLWF"] = "FTEngine2D/vendor/GLWF/include"
+IncludeDir["Glad"] = "FTEngine2D/vendor/Glad/include"
+IncludeDir["imGui"] = "FTEngine2D/vendor/imgui"
 
 include "FTEngine2D/vendor/GLWF"
+include "FTEngine2D/vendor/Glad"
+include "FTEngine2D/vendor/imGui"
 
 project "FTEngine2D"
 	location "FTEngine2D"
@@ -39,12 +43,16 @@ project "FTEngine2D"
 	{
 		"%{prj.name}/vendor/spdlog/include",
 		"%{prj.name}/src",
-		"%{IncludeDir.GLWF}"
+		"%{IncludeDir.GLWF}",
+		"%{IncludeDir.Glad}",
+		"%{IncludeDir.imGui}"
 	}
 	
 	links 
 	{ 
 		"GLFW",
+		"Glad",
+		"ImGui",
 		"opengl32.lib"
 	}
 
@@ -59,6 +67,7 @@ project "FTEngine2D"
 			"FTE_BUILD_DLL",
 			"_DEBUG",
 			"_CONSOLE",
+			"GLFW_INCLUDE_NONE"
 		}
 
 		postbuildcommands

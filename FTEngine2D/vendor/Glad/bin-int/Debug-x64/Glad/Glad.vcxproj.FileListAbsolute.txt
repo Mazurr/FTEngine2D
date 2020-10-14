@@ -1,0 +1,2 @@
+C:\Users\Bazur\Desktop\GraphicsEngine\FTEngine2D\FTEngine2D\vendor\Glad\bin\Debug-x64\Glad\Glad.pdb
+C:\Users\Bazur\Desktop\GraphicsEngine\FTEngine2D\FTEngine2D\vendor\Glad\bin-int\Debug-x64\Glad\Glad.pdb

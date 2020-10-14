@@ -4,3 +4,6 @@
 [submodule "FTEngine2D/vendor/spdlog"]
 	path = FTEngine2D/vendor/spdlog
 	url = https://github.com/gabime/spdlog.git
+[submodule "FTEngine2D/vendor/imgui"]
+	path = FTEngine2D/vendor/imgui
+	url = https://github.com/TheCherno/imgui.git

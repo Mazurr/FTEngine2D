@@ -3,6 +3,9 @@
 #include "FTEngine2D/Events/MouseEvent.h"
 #include "FTEngine2D/Events/KeyEvent.h"
 #include "FTEngine2D/Events/ApplicationEvent.h"
+
+#include "glad/glad.h"
+
 namespace FTE {
 
 	static bool s_GLFWInitialized = false;
@@ -46,6 +49,8 @@ namespace FTE {
 
 		m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
 		glfwMakeContextCurrent(m_Window);
+		int status = gladLoadGLLoader((GLADloadproc)glfwGetProcAddress);
+		FTE_CORE_ASSERT(status, "Failed to initialize Glad!");
 		glfwSetWindowUserPointer(m_Window, &m_Data);
 		SetVSync(true);
 
